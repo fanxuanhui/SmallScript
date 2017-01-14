@@ -1,2 +1,2 @@
-#SmallScript
+
 #python script
