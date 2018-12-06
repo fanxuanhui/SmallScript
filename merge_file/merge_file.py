@@ -7,7 +7,7 @@ with open('test01.txt') as f1:
 		f1_port=line1.strip().split()[0]
 		with open('test02.txt') as f2:
 			d2=f2.readlines()
-			flage=0            # 这里使用了一个flage
+			flage=0            # 杩欓噷浣跨敤浜嗕竴涓猣lage
 			for line2 in d2:
 				f2_port=line2.strip().split()[0]
 				if f1_port == f2_port:
